@@ -1,0 +1,18 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and generated vector-store data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+/chromadb/
